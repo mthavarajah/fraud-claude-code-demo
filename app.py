@@ -77,7 +77,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     df = pd.read_csv(
-        "/Users/mathuthavarajah/Documents/fraud-team/fraud_cases.csv",
+        "fraud_cases.csv",
         quotechar='"',
         skipinitialspace=True,
         on_bad_lines="skip",
